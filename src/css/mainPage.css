@@ -1,0 +1,73 @@
+.label {
+	-fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+}
+
+#btacLogo {
+	-fx-stroke-width: 5;
+	-fx-stroke: white;
+}
+
+#titleLabel {
+    -fx-font-size: 20;
+}
+        
+#statusLabel {
+	-fx-font-size: 14;
+}
+
+#contentLabel {
+	-fx-font-size: 60;	
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 1.0 , 5 , 5 );	
+}
+
+#btacTitle {
+	-fx-font-size: 80;
+}
+
+#btacDetail {
+	-fx-font-size: 25;	
+}
+
+#statusBox {
+	-fx-alignment: center-right;
+	-fx-spacing: 0;
+}
+
+#titleBox {
+	-fx-alignment: center-left;
+	-fx-spacing: 0;
+}
+
+#recordBox {
+	-fx-alignment: center;
+	-fx-spacing: 50;
+}
+
+#header {
+	-fx-alignment: center-right;
+	-fx-padding: 5 10 40 10;
+	-fx-spacing: 8;
+	-fx-background-image: url("../resources/controlPanel.png");
+    -fx-background-position: right;
+    -fx-background-repeat: stretch;
+}
+
+#content {
+	-fx-alignment: center;
+	-fx-padding: 1000 0 1000 0;
+	-fx-spacing: 50;
+	-fx-background-image: url("../resources/background.png");
+    -fx-background-position: center;
+    -fx-background-repeat: stretch;
+}
+
+#footer {
+	-fx-alignment: center-left;
+	-fx-padding: 40 0 20 104;
+	-fx-spacing: 0;
+	-fx-background-image: url("../resources/lowerPanel.png");
+    -fx-background-position: left;
+    -fx-background-repeat: stretch;
+}
