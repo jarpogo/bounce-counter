@@ -1,6 +1,7 @@
 # Bounce Counter 
+Created June 2013
 
-![](BounceProgramScreenshot.png)
+![](BounceCounterScreenshot.png)
 
 ## Description
 
